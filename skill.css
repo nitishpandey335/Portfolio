@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b2f0f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.skills-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #3498db;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
